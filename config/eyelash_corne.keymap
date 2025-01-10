@@ -88,10 +88,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE      &kp EXCL        &kp AT           &kp HASH      &kp DLLR         &kp PRCNT                              &mmv MOVE_UP             &kp CARET  &kp AMPS           &kp ASTRK      &kp LPAR    &kp RPAR        &kp BACKSPACE
-&kp TAB         &none           &none            &kp UP_ARROW  &none            &none                  &mmv MOVE_DOWN  &kp MINUS     &kp EQUAL  &kp LBKT   &kp RBKT           &kp BSLH       &kp GRAVE   &kp LEFT_SHIFT  &none
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none         &mmv MOVE_LEFT   &kp UNDER  &kp PLUS                    &kp LBRC                 &kp RBRC   &kp PIPE           &kp RIGHT_ALT  &kp K_MUTE  &kp LEFT_WIN    &to 0
-                                                 &kp SPACE     &mmv MOVE_RIGHT  &kp RET                                                         &tog 2     &kp RIGHT_CONTROL  &mkp LCLK
+&kp ESCAPE      &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT                                &mmv MOVE_UP             &kp CARET  &kp AMPS  &kp ASTRK          &kp LPAR    &kp RPAR        &kp BACKSPACE
+&kp TAB         &none     &none           &kp UP_ARROW    &none            &none                    &mmv MOVE_DOWN  &mkp LCLK     &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH           &kp GRAVE   &kp LEFT_SHIFT  &none
+&kp LEFT_SHIFT  &none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &kp K_MUTE                    &kp LBRC                 &kp RBRC   &kp PIPE  &kp RIGHT_ALT      &kp K_MUTE  &kp LEFT_WIN    &to 0
+                                          &kp LEFT_GUI    &to 0            &kp SPACE                                                         &kp ENTER  &tog 2    &kp RIGHT_CONTROL
             >;
 
             label = "SYMBOL";
