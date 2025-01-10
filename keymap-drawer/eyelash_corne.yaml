@@ -69,7 +69,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -77,13 +77,13 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
+  - MUTE
   - '{'
   - '}'
   - '|'
@@ -91,12 +91,12 @@ layers:
   - MUTE
   - LEFT WIN
   - {t: QWERTY, h: toggle}
+  - $$mdi:apple-keyboard-command$$
+  - {t: QWERTY, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: NUMBER, h: toggle}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:mouse-left-click-outline$$
   NUMBER:
   - $$mdi:keyboard-esc$$
   - F1
