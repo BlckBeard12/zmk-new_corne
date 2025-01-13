@@ -45,7 +45,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - Temp
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: SYMBOL, h: toggle}
   - $$mdi:apple-keyboard-control$$
   SYMBOL:
@@ -241,6 +241,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
